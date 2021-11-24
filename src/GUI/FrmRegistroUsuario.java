@@ -1,14 +1,15 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *  FrmRegistroUsuario.java
+ * 
+ * Creada el 24 de Noviembre dell 2021 12:09AM
  */
 
 package GUI;
 
 /**
- *
- * @author eduar
+ * @author Melissa Arreola Pasos
+ * @author Juan Diego Romero
+ * @author Isaac Castelo Valenzuela
  */
 public class FrmRegistroUsuario extends javax.swing.JFrame {
 

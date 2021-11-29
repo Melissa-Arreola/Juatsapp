@@ -14,4 +14,17 @@ package Entidades;
 public class Chat {
 
     private String conversacion;
+
+    public Chat() {
+    }
+
+    public String getConversacion() {
+        return conversacion;
+    }
+
+    public void setConversacion(String conversacion) {
+        this.conversacion = conversacion;
+    }
+    
+    
 }

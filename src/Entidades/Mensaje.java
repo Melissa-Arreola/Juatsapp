@@ -15,4 +15,32 @@ public class Mensaje {
 
     private String mensajeEnviado;
     private String mensajeRecibido;
+
+    public Mensaje() {
+    }
+
+    public Mensaje(String mensajeEnviado, String mensajeRecibido) {
+        this.mensajeEnviado = mensajeEnviado;
+        this.mensajeRecibido = mensajeRecibido;
+    }
+
+    public String getMensajeEnviado() {
+        return mensajeEnviado;
+    }
+
+    public void setMensajeEnviado(String mensajeEnviado) {
+        this.mensajeEnviado = mensajeEnviado;
+    }
+
+    public String getMensajeRecibido() {
+        return mensajeRecibido;
+    }
+
+    public void setMensajeRecibido(String mensajeRecibido) {
+        this.mensajeRecibido = mensajeRecibido;
+    }
+    
+    
+    
+    
 }

@@ -58,7 +58,7 @@ public class FrmIniciarSesion extends javax.swing.JFrame {
         pnlJuatsapp.setBackground(new java.awt.Color(0, 204, 204));
 
         lblUsuario.setFont(new java.awt.Font("Tw Cen MT", 2, 24)); // NOI18N
-        lblUsuario.setText("Número");
+        lblUsuario.setText("Usuario/Correo");
 
         lblContraseña.setFont(new java.awt.Font("Tw Cen MT", 2, 24)); // NOI18N
         lblContraseña.setText("Contraseña");
@@ -141,30 +141,30 @@ public class FrmIniciarSesion extends javax.swing.JFrame {
             pnlJuatsappLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(pnlJuatsapp2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlJuatsappLayout.createSequentialGroup()
-                .addContainerGap(62, Short.MAX_VALUE)
+                .addContainerGap(19, Short.MAX_VALUE)
                 .addGroup(pnlJuatsappLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlJuatsappLayout.createSequentialGroup()
                         .addGroup(pnlJuatsappLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(pnlJuatsappLayout.createSequentialGroup()
-                                .addComponent(lblUsuario)
-                                .addGap(45, 45, 45)
-                                .addComponent(txtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(pnlJuatsappLayout.createSequentialGroup()
-                                .addComponent(lblContraseña)
-                                .addGap(28, 28, 28)
-                                .addComponent(txtContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(80, 80, 80))
+                            .addComponent(lblUsuario)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, pnlJuatsappLayout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addComponent(lblContraseña)))
+                        .addGap(18, 18, 18)
+                        .addGroup(pnlJuatsappLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(90, 90, 90))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlJuatsappLayout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGap(46, 46, 46)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(19, 19, 19))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlJuatsappLayout.createSequentialGroup()
-                        .addComponent(lblExtra)
-                        .addGap(111, 111, 111))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlJuatsappLayout.createSequentialGroup()
                         .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(172, 172, 172))))
+                        .addGap(172, 172, 172))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlJuatsappLayout.createSequentialGroup()
+                        .addComponent(lblExtra)
+                        .addGap(119, 119, 119))))
         );
         pnlJuatsappLayout.setVerticalGroup(
             pnlJuatsappLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

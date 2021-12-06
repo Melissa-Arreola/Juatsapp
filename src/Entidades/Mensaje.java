@@ -19,6 +19,10 @@ public class Mensaje {
     public Mensaje() {
     }
 
+    public Mensaje(String mensajeRecibido) {
+        this.mensajeRecibido = mensajeRecibido;
+    }
+    
     public Mensaje(String mensajeEnviado, String mensajeRecibido) {
         this.mensajeEnviado = mensajeEnviado;
         this.mensajeRecibido = mensajeRecibido;

@@ -29,9 +29,8 @@ public class MensajeDAO extends BaseDAO<Mensaje>{
     }
 
     @Override
-    public Mensaje mensaejEnviado(String mensaje) throws DAOException {
-       
-        
+    public Mensaje mensaejEnviado(Mensaje mensaje) throws DAOException {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
    
     

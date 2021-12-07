@@ -6,8 +6,9 @@
 package DAO;
 
 /**
- *
- * @author Melissa
+ * @author Melissa Arreola Pasos
+ * @author Juan Diego Romero
+ * @author Isaac Castelo Valenzuela
  */
 public class ChatDAO {
     

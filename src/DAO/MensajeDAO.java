@@ -11,8 +11,9 @@ import com.mongodb.client.MongoCollection;
 import org.bson.conversions.Bson;
 
 /**
- *
- * @author Melissa
+ * @author Melissa Arreola Pasos
+ * @author Juan Diego Romero
+ * @author Isaac Castelo Valenzuela
  */
 public class MensajeDAO extends BaseDAO<Mensaje>{
     

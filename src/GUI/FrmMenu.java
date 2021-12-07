@@ -203,15 +203,17 @@ public class FrmMenu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnIniciarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarSesionActionPerformed
-        // TODO add your handling code here:
+     FrmIniciarSesion frmInicio = new FrmIniciarSesion();
+     frmInicio.setVisible(true);
     }//GEN-LAST:event_btnIniciarSesionActionPerformed
 
     private void btnRegistarseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistarseActionPerformed
-        // TODO add your handling code here:
+     FrmRegistroUsuario frmRegistro = new FrmRegistroUsuario();
+     frmRegistro.setVisible(true);
     }//GEN-LAST:event_btnRegistarseActionPerformed
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
-        
+        this.dispose();
     }//GEN-LAST:event_btnSalirActionPerformed
 
     private void btnAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAyudaActionPerformed

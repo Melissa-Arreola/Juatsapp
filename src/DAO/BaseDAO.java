@@ -19,8 +19,9 @@ import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.codecs.pojo.PojoCodecProvider;
 
 /**
- *
- * @author Melissa
+ * @author Melissa Arreola Pasos
+ * @author Juan Diego Romero
+ * @author Isaac Castelo Valenzuela
  */
 public abstract class BaseDAO<T>{
     

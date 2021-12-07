@@ -6,9 +6,11 @@
 package DAO;
 
 /**
- *
- * @author eduar
+ * @author Melissa Arreola Pasos
+ * @author Juan Diego Romero
+ * @author Isaac Castelo Valenzuela
  */
+
 public class UsuarioDAO {
     
 }

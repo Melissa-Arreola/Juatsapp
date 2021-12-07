@@ -46,7 +46,7 @@ public class FrmRegistroUsuario extends javax.swing.JFrame {
         btnMenu = new javax.swing.JButton();
         btnRegistrarme = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         pnlRegistroUsuario.setBackground(new java.awt.Color(0, 204, 204));
 
@@ -66,7 +66,7 @@ public class FrmRegistroUsuario extends javax.swing.JFrame {
         );
 
         lblTitulo.setFont(new java.awt.Font("Agency FB", 3, 60)); // NOI18N
-        lblTitulo.setText("Juatsapp");
+        lblTitulo.setText("Registro");
 
         lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/Logo chiquito.png"))); // NOI18N
 
@@ -78,9 +78,9 @@ public class FrmRegistroUsuario extends javax.swing.JFrame {
             .addGroup(pnlBackgroundLayout.createSequentialGroup()
                 .addGap(76, 76, 76)
                 .addComponent(lblTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(lblLogo, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(92, Short.MAX_VALUE))
+                .addContainerGap(80, Short.MAX_VALUE))
         );
         pnlBackgroundLayout.setVerticalGroup(
             pnlBackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,20 +107,13 @@ public class FrmRegistroUsuario extends javax.swing.JFrame {
         lblEdad.setFont(new java.awt.Font("Tw Cen MT", 2, 24)); // NOI18N
         lblEdad.setText("Edad");
 
-        txtUsuario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtUsuarioActionPerformed(evt);
-            }
-        });
-
-        cbEdad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbEdadActionPerformed(evt);
-            }
-        });
-
         btnMenu.setText("Menú");
         btnMenu.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnMenu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMenuActionPerformed(evt);
+            }
+        });
 
         btnRegistrarme.setText("Registrarme");
         btnRegistrarme.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -198,17 +191,13 @@ public class FrmRegistroUsuario extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtUsuarioActionPerformed
-
-    private void cbEdadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbEdadActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cbEdadActionPerformed
-
     private void btnRegistrarmeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarmeActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnRegistrarmeActionPerformed
+
+    private void btnMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuActionPerformed
+        this.dispose();
+    }//GEN-LAST:event_btnMenuActionPerformed
 
           private void centrarVentana(){
         Dimension screenSize, frameSize;
